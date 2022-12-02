@@ -1,0 +1,71 @@
+.ProgramsImg {
+  display: flex;
+  padding: 50px 20px 50px 20px;
+  background: #d9a7c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #fffcdc,
+    #d9a7c7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #fffcdc,
+    #d9a7c7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.DivImgP {
+  display: flex;
+  justify-content: center;
+}
+.ContainerTextOpt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.DivImgP img {
+  width: auto;
+  height: 500px;
+}
+
+.TextTitle {
+  padding: 0 50px;
+  margin: 0 0 0 20px;
+  color: #963f93;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.BtnOptions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 1020px) {
+  .ProgramsImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .DivImgP img {
+    width: 300px;
+    height: 300px;
+  }
+  .ContainerTextOpt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  .TextTitle {
+    text-align: justify;
+    padding: 0;
+    margin: 30px 0;
+  }
+}

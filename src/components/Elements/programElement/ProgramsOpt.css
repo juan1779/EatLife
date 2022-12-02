@@ -1,0 +1,37 @@
+.BestProgramsDivOptn {
+  color: #ce60ca;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  text-align: justify;
+  padding: 15px 10px;
+  border: none;
+  margin: 25px 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.BestProgramsDivOptn:hover {
+  transform: scale(1.1);
+  border-radius: 20px;
+  transition: 0.8s;
+  box-shadow: 0 0 10px #ddd;
+  border: 1px solid #ddd;
+}
+.IconPng {
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: #832b80;
+}
+.BestProgramsDivOptn .IconPng:hover {
+  color: #f5cc44;
+}

@@ -1,0 +1,8 @@
+.ContainerHome {
+  height: 438px;
+}
+@media screen and (max-width: 720px) {
+  .ContainerHome {
+    height: auto;
+  }
+}

@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+  --mainColor: #29335c;
+  --mainColorLight: #5767aa;
+  --secondaryColor: #aaaaaa;
+  --textColor: #eee;
+  --colorBtn: #d4af37;
+}
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f5d97d;
+  text-decoration: none;
+}
+.ContainerHead {
+  padding: 0 20px;
+  height: 70px;
+  background: linear-gradient(to right, #ce60ca, #b83fb4, rgb(209, 129, 37));
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  color: var(--textColor);
+  padding: 10px 0;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: var(--textColor);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: var(--secondaryColor);
+}
+.navContainer {
+  align-items: center;
+  padding-top: 6px;
+}
+header .nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--textColor);
+  visibility: hidden;
+  position: absolute;
+
+  opacity: 0;
+  font-size: 1.8rem;
+}
+
+header div,
+nav {
+  display: flex;
+  align-items: flex-start;
+}
+.btnContact {
+  background: var(--colorBtn);
+  border: none;
+  border-radius: 10px;
+  color: #1f1e1e;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.btnContact:hover {
+  transition: 0.5s;
+  color: #fff;
+  box-shadow: 0 0 3px #ddd;
+}
+
+@media only screen and (max-width: 1024px) {
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+    position: inherit;
+  }
+
+  .btnContact {
+    visibility: hidden;
+  }
+
+  header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: #b83fb4;
+    transition: 1s;
+    transform: translateY(-100vh);
+  }
+
+  header .responsive_nav {
+    transform: none;
+  }
+
+  nav .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  nav a {
+    font-size: 1.5rem;
+  }
+}

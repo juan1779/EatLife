@@ -1,0 +1,91 @@
+.containerText {
+  height: 85vh;
+  display: flex;
+  padding-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  background: #f4c4f3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fc67fa,
+    #d6add6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fc67fa,
+    #dbb0db
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.NavText {
+  flex-direction: column;
+  color: #fff;
+  width: 400px;
+  height: auto;
+  margin-top: 10px;
+}
+.NavText h1 {
+  color: #fff;
+  font-size: 50px;
+  letter-spacing: 1px;
+  line-height: 50px;
+}
+.NavText p {
+  color: #fff;
+  padding: 30px 0;
+  text-align: justify;
+  font-weight: bold;
+}
+.NavTextBtn {
+  background: var(--colorBtn);
+  border: none;
+  border-radius: 10px;
+  color: #1f1e1e;
+  cursor: pointer;
+  font-weight: bold;
+  width: 150px;
+  height: auto;
+  padding: 10px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.NavTextBtn:hover {
+  transition: 0.5s;
+  color: #fff;
+  box-shadow: 0 0 3px #ddd;
+}
+.imgNutrition {
+  height: 300px;
+  width: 200px;
+  border-radius: 20px;
+}
+@media only screen and (max-width: 720px) {
+  .containerText {
+    flex-direction: column-reverse;
+    padding: 0 20px 50px 10px;
+  }
+  .NavText {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin-top: -30px;
+    padding: 0 20px;
+  }
+  .NavTextBtn {
+    display: flex;
+    justify-content: center;
+  }
+  .divImg {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .imgNutrition {
+    height: 200px;
+    width: 150px;
+  }
+}
