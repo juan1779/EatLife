@@ -1,4 +1,5 @@
 import React from "react";
+import Imgp2 from "/src/assets/comer1.png";
 import ProgramOpt from "./Elements/programElement/ProgramsOpt";
 import { Data2 } from "./Data/DataPrograms2";
 import Header from "./Elements/Header";
@@ -17,7 +18,7 @@ function News() {
     return (
       <div className="ProgramsImg">
         <div className="DivImgP">
-          <img src="/src/assets/comer1.png" />
+          <img src={Imgp2} />
         </div>
         <div className="ContainerTextOpt">
           <div className="TextTitle">
