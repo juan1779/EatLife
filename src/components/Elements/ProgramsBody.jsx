@@ -24,7 +24,6 @@ function ProgramsBody() {
           })}
         </div>
       </div>
-
       <div className="Started">
         <h3>Get Started with EatLife</h3>
         <p>

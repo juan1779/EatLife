@@ -1,4 +1,5 @@
 import React from "react";
+import Imgp from "/src/assets/Miproyecto.png";
 import "./NavText.css";
 
 function NavText() {
@@ -13,7 +14,7 @@ function NavText() {
         <button className="NavTextBtn">Explore menu</button>
       </div>
       <div className="divImg">
-        <img className="imgNutrition" src="/src/assets/Miproyecto.png" />
+        <img className="imgNutrition" src={Imgp} />
       </div>
     </div>
   );
