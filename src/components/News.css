@@ -54,6 +54,8 @@
   .DivImgP img {
     width: 300px;
     height: 300px;
+    visibility: hidden;
+    position: absolute;
   }
   .ContainerTextOpt {
     display: flex;
@@ -67,5 +69,8 @@
     text-align: justify;
     padding: 0;
     margin: 30px 0;
+  }
+  .TextTitle p {
+    font-size: 15px;
   }
 }

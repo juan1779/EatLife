@@ -62,8 +62,9 @@
 }
 @media only screen and (max-width: 720px) {
   .containerText {
-    flex-direction: column-reverse;
-    padding: 0 20px 50px 10px;
+    flex-direction: column;
+    padding: 0 20px 0px 10px;
+    gap: 0;
   }
   .NavText {
     display: flex;
@@ -72,7 +73,7 @@
     width: 100%;
     height: auto;
     justify-content: center;
-    margin-top: -30px;
+
     padding: 0 20px;
   }
   .NavTextBtn {
@@ -83,6 +84,8 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    visibility: hidden;
+    position: absolute;
   }
   .imgNutrition {
     height: 200px;

@@ -52,3 +52,22 @@
 .Started h3 {
   text-align: start;
 }
+.Started p {
+  text-align: justify;
+  width: 600px;
+  padding: 20px 0;
+}
+@media only screen and (max-width: 720px) {
+  .Started {
+    padding: 20px 0px;
+    margin: 0px 15px 10px 20px;
+    color: #963f93;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .Started p {
+    text-align: justify;
+    font-size: 15px;
+    width: fit-content;
+  }
+}

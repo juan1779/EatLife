@@ -37,16 +37,21 @@
   .BestProgramsDiv {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    height: 300px;
+    height: 550px;
+    width: 100vw;
     overflow: scroll;
     scroll-behavior: hidden;
+    padding: 0 10px;
   }
   .BestProgramsDivOpt {
     margin: 5px 5px;
-    padding: 0 15px;
-    border: 5px solid #f5cc44;
+    padding: 0 5px;
+    border: 2px solid #f5cc44;
     border-radius: 20px;
-    height: 210px;
+    height: 230px;
+    width: 150px;
   }
 }
